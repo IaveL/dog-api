@@ -1,0 +1,26 @@
+h1::before,
+h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+h1::before {
+  background: #b4ff9f;
+  animation: appear 3s 1s forwards;
+}
+
+h1::after {
+  width: 0.125em;
+
+  animation: appear 3s 1s forwards, blink 450ms infinite;
+}
+
+@keyframes appear {
+  to {
+    left: 100%;
+  }
+}
