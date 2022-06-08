@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { GlobalStyle } from "./assets/GlobalStyles";
-import GetDog from "./components/GetDog";
+import GetDog from "./components/GetDog.jsx";
 export default function App() {
   return (
     <>
