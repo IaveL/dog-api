@@ -1,0 +1,2 @@
+h1:after,h1:before{bottom:0;content:"";left:0;position:absolute;right:0;top:0}h1:before{-webkit-animation:appear 3s 1s forwards;animation:appear 3s 1s forwards;background:#b4ff9f}h1:after{-webkit-animation:appear 3s 1s forwards,blink .45s infinite;animation:appear 3s 1s forwards,blink .45s infinite;width:.125em}@-webkit-keyframes appear{to{left:100%}}@keyframes appear{to{left:100%}}
+/*# sourceMappingURL=main.05325d7a.css.map*/
